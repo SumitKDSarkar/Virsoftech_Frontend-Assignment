@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "Bitcoin",
+    "image": "https://img.freepik.com/free-photo/bitcoin-keyboard_93675-128902.jpg?w=826&t=st=1694090468~exp=1694091068~hmac=57993e4465d226a0c9215049bb25694946314ef6dff55eb995bbd90cbdb3e859",
+    
+    "price": 40000
+  },
+  {
+    "id": 2,
+    "name": "Ethereum",
+    "image": "https://c4.wallpaperflare.com/wallpaper/727/232/837/blur-button-keyboard-fon-buttons-hd-wallpaper-preview.jpg",
+    
+    "price": 2800
+  },
+  {
+    "id": 3,
+    "name": "Litecoin",
+    "image": "https://img.freepik.com/free-photo/coin-litecoin-american-flag-background-concept-virtual-money-closeup_169016-4826.jpg?w=900&t=st=1694090583~exp=1694091183~hmac=24d84131502bef87471d0ba03a36accce2e24df7a9c96d4bd951f9c8b4449ca6",
+    
+    "price": 150
+  }
+  
+  
+]

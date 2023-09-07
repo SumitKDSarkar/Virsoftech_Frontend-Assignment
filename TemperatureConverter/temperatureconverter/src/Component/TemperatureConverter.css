@@ -14,27 +14,18 @@ h1 {
 }
 
 .input-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 20px;
+}
 
-  input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-
-  select {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
+.input-container input[type="text"],
+.input-container select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 .buttons-container {
@@ -42,16 +33,22 @@ h1 {
   justify-content: center;
   gap: 10px;
   margin-bottom: 20px;
+}
 
-  button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+.buttons-container button {
+  flex: 1;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttons-container button:hover {
+  background-color: #0056b3;
 }
 
 .error {
